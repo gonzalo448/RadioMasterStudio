@@ -2,10 +2,9 @@ name: Build RadioMaster Studio
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ main ]
   pull_request:
-    branches: [ "main" ]
-  workflow_dispatch:
+    branches: [ main ]
 
 jobs:
   build:
@@ -32,8 +31,10 @@ jobs:
       - name: Package Electron app
         run: npm run dist
 
-      - name: Upload artifacts
+      - name: Upload build artifacts
         uses: actions/upload-artifact@v4
         with:
           name: RadioMaster-${{ matrix.os }}
           path: dist/**
+
+
