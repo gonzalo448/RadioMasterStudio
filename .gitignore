@@ -1,0 +1,81 @@
+# Node.js / React
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build / Dist
+dist/
+build/
+out/
+release/
+
+# Electron
+*.asar
+*.exe
+*.dmg
+*.AppImage
+
+# Logs
+*.log
+logs/
+*.pid
+*.seed
+*.pid.lock
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDEs / Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Coverage / Testing
+coverage/
+*.lcov
+
+# Docker
+*.pid
+*.seed
+*.pid.lock
+
+# Scripts temporales
+scripts/*.sh~
+scripts/*.ps1~
+
+# Database dumps
+db/*.sql
+db/*.sqlite
+db/*.db
+
+# Ollama / modelos locales
+ollama/models/
+ollama/cache/
+
+# Audio engine artefacts
+audio-engine/output/
+audio-engine/temp/
+
+# Backend artefacts
+backend/logs/
+backend/temp/
+backend/*.sqlite
+
+# Frontend artefacts
+frontend/.cache/
+frontend/.next/
+frontend/temp/
+
+# GitHub Actions cache
+.github/workflows/*.bak
+.github/workflows/*.tmp
