@@ -1,0 +1,33 @@
+# Forzar estilo de saltos de línea
+* text=auto
+
+# Archivos de código fuente siempre con LF (Unix)
+*.js     text eol=lf
+*.jsx    text eol=lf
+*.ts     text eol=lf
+*.tsx    text eol=lf
+*.json   text eol=lf
+*.yml    text eol=lf
+*.yaml   text eol=lf
+*.sql    text eol=lf
+*.sh     text eol=lf
+
+# Archivos de PowerShell y batch con CRLF (Windows)
+*.ps1    text eol=crlf
+*.bat    text eol=crlf
+*.cmd    text eol=crlf
+
+# Markdown y documentación con LF
+*.md     text eol=lf
+*.txt    text eol=lf
+
+# Binarios: no tocar saltos de línea
+*.png    binary
+*.jpg    binary
+*.jpeg   binary
+*.gif    binary
+*.ico    binary
+*.exe    binary
+*.dmg    binary
+*.AppImage binary
+*.asar   binary
