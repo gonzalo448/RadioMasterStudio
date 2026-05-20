@@ -1,1 +1,1 @@
-// Audio Engine principal
+console.log('Audio Engine inicializado 🎵');

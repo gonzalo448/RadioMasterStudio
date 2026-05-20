@@ -1,1 +1,4 @@
-# Configuración inicial de Ollama
+models:
+  - llama3:latest
+  - qwen2.5-coder:7b
+  - mxbai-embed-large

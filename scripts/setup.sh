@@ -1,2 +1,4 @@
 #!/bin/bash
-echo 'Setup inicial'
+echo 'Inicializando proyecto...'
+npm install
+echo 'Proyecto listo 🚀'
