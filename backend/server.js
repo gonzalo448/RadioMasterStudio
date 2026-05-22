@@ -7,5 +7,5 @@ app.get('/', (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(Servidor backend escuchando en puerto );
+  console.log(`Servidor backend escuchando en puerto ${PORT}`);
 });
